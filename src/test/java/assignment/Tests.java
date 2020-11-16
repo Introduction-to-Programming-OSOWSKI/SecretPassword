@@ -16,7 +16,10 @@ public class Tests {
    @Test
    public void test(){
        App.main(null);
-       //assertEquals("EXPECTED", App.testMethod(), "ERROR MESSAGE");
+       assertEquals(false, App.passwordCheck("fegfqoweg"), "ERROR");
+       assertEquals(false, App.passwordCheck("efwgbwwg"), "ERROR");
+       assertEquals(false, App.passwordCheck("3456i4u"), "ERROR");
+       assertEquals(true, App.passwordCheck("Knights42"), "ERROR");
    }
 
 }
