@@ -2,7 +2,7 @@
 
 ## **Assignment Description**
 Create a method called passwordCheck that takes a given string and returns true/false if it matches the password. The password is Knights42.  
-This method should be implemented into a simple system that askes the user for a password, and tells them if they are correct or incorrect.
+This method should be implemented into a simple system that asks the user for a password, and tells them if they are correct or incorrect.
 
 ## **Example**
 >Please enter the password.  
@@ -15,10 +15,11 @@ ACCESS GRANTED
 
 ## **Limitations**
 1 method  
-1 if statement
+2 if/else statements
 
 ## **Hints**
-Your passwordCheck method should require one string argument
+Your passwordCheck method should require one string argument  
+You will need a Scanner to get user input
 
 ---
 
