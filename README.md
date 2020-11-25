@@ -1,18 +1,10 @@
 # **Secret Password**
 
 ## **Assignment Description**
-Create a method called passwordCheck that takes a given string and returns true/false if it matches the password. The password is Knights42.  
-This method should be implemented into a simple system that asks the user for a password, and tells them if they are correct or incorrect.
+Create a method called passwordCheck() that takes a given string and returns true/false if it matches the password. The password is Knights42.  
+
 
 ## **Examples**
->Please enter the password.  
-Potato99  
-ACCESS DENIED    
-
->Please enter the password  
-Knights42  
-ACCESS GRANTED
-
 >passwordCheck("Potato99")  
 false
 
@@ -21,14 +13,14 @@ true
 
 ## **Limitations**
 1 method  
-2 if/else statements
+1 if  
+1 else
 
 ## **Hints**
-Your passwordCheck method should require one string argument  
-You will need a Scanner to get user input
+You cannot use == to compare two Strings.  You must use *string1*.equals(*string2*).
 
 ## **Concepts**  
-Methods, String, Boolean, Scanner
+Methods, String, Boolean
 
 ---
 
